@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --color-forest: #2d5f34;
+  --color-sunset: #e8601f;
+  --color-cream: #faf9f6;
+  --color-ink: #1e1a17;
+  --font-display: "Bebas Neue", sans-serif;
+  --font-body: "Source Sans 3", sans-serif;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--color-cream);
+  margin: 0;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-display);
+  letter-spacing: 0.02em;
+}
