@@ -8,11 +8,10 @@ export default function Footer() {
     <footer className="bg-ink text-white/80">
       <div className="max-w-6xl mx-auto px-4 py-12 grid gap-10 md:grid-cols-4">
         <div className="md:col-span-1">
-          <img
-          src="/images/logo.jpg"
-          alt="Liwaliw sa Liliw Tour"
-          className="h-20 md:h-24 w-auto rounded-lg"
-        />
+          <div className="flex items-center gap-2 text-white">
+            <Compass size={24} />
+            <span className="font-display text-2xl">LIWALIW SA LILIW</span>
+          </div>
           <p className="mt-4 text-sm">Dadalhin ka sa Liliw para maaliw!</p>
           <div className="mt-4 flex flex-wrap gap-2">
             {socials.map((s) => (
