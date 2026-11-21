@@ -32,7 +32,7 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 bg-white/90 backdrop-blur border-t-2 border-sunset shadow-sm">
       <nav className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
         <Link to="/" className="flex items-center">
-     <img src={asset('images/logo.jpg')} alt="Liwaliw sa Liliw Tour" className="h-10 md:h-12 w-auto" />
+      <img src="/images/logo.jpg" alt="Liwaliw sa Liliw Tour" className="h-10 md:h-12 w-auto" />
     </Link>
 
         {/* Desktop */}
