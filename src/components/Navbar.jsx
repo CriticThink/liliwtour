@@ -31,10 +31,13 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 bg-white/90 backdrop-blur border-t-2 border-sunset shadow-sm">
       <nav className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
-        <Link to="/" className="flex items-center gap-2 text-forest">
-          <Compass size={28} />
-          <span className="font-display text-2xl tracking-wide">LIWALIW SA LILIW</span>
-        </Link>
+        <Link to="/" className="flex items-center">
+      <img
+        src="/images/logo.png"
+        alt="Liwaliw sa Liliw Tour"
+        className="h-10 md:h-12 w-auto"
+      />
+    </Link>
 
         {/* Desktop */}
         <div className="hidden md:flex items-center gap-6">
